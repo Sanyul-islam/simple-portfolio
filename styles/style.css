@@ -238,7 +238,6 @@ footer .footer-container {
 /* small device */
 
 @media screen and (max-width: 576px) {
-  
   /* share style */
   .container {
     width: 95%;
@@ -246,7 +245,7 @@ footer .footer-container {
 
   .nav h2,
   .footer-container h2,
-   main h2 {
+  main h2 {
     font-size: 30px;
   }
   .btn-primary {
@@ -267,12 +266,13 @@ footer .footer-container {
   .resume-container {
     margin-top: 50px;
   }
-  .image-size{
+  .image-size {
     background-position: bottom right;
   }
   /* header */
   .header {
-    padding: 10px;
+    padding: 0px 0px 0px 120px;
+    text-align: center;
   }
   .nav {
     flex-wrap: wrap;
@@ -299,42 +299,42 @@ footer .footer-container {
   .about {
     margin-top: 20px;
   }
-  .Do{
+  .Do {
     padding: 0px;
   }
-  #resume{
+  #resume {
     padding-top: 30px;
   }
 
   /* footer section */
-  footer{
+  footer {
     margin-top: 30px;
     padding: 30px 10px;
     text-align: center;
   }
-  .footer-container{
+  .footer-container {
     flex-direction: column-reverse;
   }
   .footer-container form input,
-    .footer-container form textarea {
-        width: 100%;
-    }
-
-  
+  .footer-container form textarea {
+    width: 100%;
+  }
 }
 
 /* medium device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-
-  
-  .nav{
+  .header {
+    padding: 0px 0px 0px 120px;
+    text-align: center;
+  }
+  .nav {
     flex-wrap: wrap;
   }
   .list {
     font-size: 15px;
     margin: 5px 10px;
   }
-  .details{
+  .details {
     flex-direction: column;
   }
   .details h4 {
@@ -344,18 +344,18 @@ footer .footer-container {
   .nav h2,
   .details h2,
   .footer-container h2,
-   main h2 {
+  main h2 {
     font-size: 30px;
   }
 
   .about-list,
   .skills-container,
-  .resume-container{
+  .resume-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  
-  .footer-container{
-    flex-direction: column-reverse; 
+
+  .footer-container {
+    flex-direction: column-reverse;
   }
 }
